@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+.hero {
+    background: #ffe1e1;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+footer {
+    background: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 35px;
+    }
+    .hero {
+        padding: 50px 15px;
+    }
+    .card img {
+        height: 200px;
+    }
+}
